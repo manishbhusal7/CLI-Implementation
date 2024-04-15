@@ -1,0 +1,27 @@
+[project]
+name = "calc"
+version = "0.0.1"
+description = "Awesome Calculator"
+authors= [
+    {name = "Jeremy Castagno", email= " jcastagno@springfieldcollege.edu"}
+
+]
+requires-python= ">=3.8"
+dependencies = [
+    "matplotlib"
+
+]
+
+[project.scripts]
+plotter = "calc.cli.py"
+
+[build-system]
+requires = [
+    "setuptools >= 35.0.2",
+#     "setuptools_scm >= 2.0.0, <3"
+]
+build-backend = "setuptools.build_meta"
+
+# [build-system]
+# requires = ["setuptools>=42", "wheel"]
+# build-backend = "setuptools.build_meta"
